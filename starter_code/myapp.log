@@ -1,0 +1,488 @@
+2023-08-08 14:04:28.160  INFO 11452 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on PhucVV with PID 11452 (D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code\target\classes started by ASUS in D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code)
+2023-08-08 14:04:28.162  INFO 11452 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2023-08-08 14:04:28.442  INFO 11452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-08 14:04:28.480  INFO 11452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 4 JPA repository interfaces.
+2023-08-08 14:04:28.810  INFO 11452 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 14:04:28.961  INFO 11452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-08 14:04:28.965  INFO 11452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-08 14:04:28.966  INFO 11452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-08-08 14:04:29.024  INFO 11452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-08 14:04:29.024  INFO 11452 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 826 ms
+2023-08-08 14:04:29.114  INFO 11452 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-08 14:04:29.148  INFO 11452 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2023-08-08 14:04:29.205  INFO 11452 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-08-08 14:04:29.267  INFO 11452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-08 14:04:29.373  INFO 11452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-08 14:04:29.383  INFO 11452 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-08 14:04:29.996  INFO 11452 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-08 14:04:30.002  INFO 11452 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:04:30.355  WARN 11452 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 14:04:30.608  INFO 11452 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51b41740, org.springframework.security.web.context.SecurityContextPersistenceFilter@49809275, org.springframework.security.web.header.HeaderWriterFilter@f453129, org.springframework.web.filter.CorsFilter@70cac22a, org.springframework.security.web.authentication.logout.LogoutFilter@4b20aa21, com.example.demo.security.JWTAuthenticationFilter@57a0c261, com.example.demo.security.JWTAuthenticationVerificationFilter@5862dda4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fd31df7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38347345, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@299ddfff, org.springframework.security.web.session.SessionManagementFilter@656302c, org.springframework.security.web.access.ExceptionTranslationFilter@14624acc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ad7a305]
+2023-08-08 14:04:30.653  INFO 11452 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:04:30.786  INFO 11452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-08 14:04:30.787  INFO 11452 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 2.876 seconds (JVM running for 3.28)
+2023-08-08 14:04:38.534  INFO 11452 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-08 14:04:38.534  INFO 11452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-08 14:04:38.537  INFO 11452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-08 14:04:38.733 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:38.817 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:38.894 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:38.968 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.045 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.127 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.205 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.292 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.366 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.445 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.542 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.622 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.699 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.783 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.880 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:39.961 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.051 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.137 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.209 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.287 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.361 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.441 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.523 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.610 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.690 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.767 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.841 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.916 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:40.992 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.065 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.139 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.217 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.290 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.362 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.436 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.512 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.586 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.660 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.733 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.815 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:41.916 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.006 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.096 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.190 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.274 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.345 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.422 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.503 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:04:42.570  INFO 11452 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:04:42.572  INFO 11452 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:04:42.574  INFO 11452 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-08 14:04:42.575  INFO 11452 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-08 14:04:42.601  INFO 11452 --- [http-nio-8080-exec-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-08 14:04:42.605  INFO 11452 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-08-08 14:04:42.782  INFO 11452 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-08-08 14:04:42.782  INFO 11452 --- [http-nio-8080-exec-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-08 14:04:42.834  INFO 11452 --- [http-nio-8080-exec-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-08 14:04:42.835  INFO 11452 --- [http-nio-8080-exec-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:04:42.841 ERROR 11452 --- [http-nio-8080-exec-1] c.e.d.security.JWTAuthenticationFilter   : An internal error occurred while trying to authenticate the user.
+
+org.springframework.security.authentication.InternalAuthenticationServiceException: EntityManagerFactory is closed; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:511) ~[spring-security-config-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at com.example.demo.security.JWTAuthenticationFilter.attemptAuthentication(JWTAuthenticationFilter.java:39) ~[classes/:na]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.springframework.dao.InvalidDataAccessApiUsageException: EntityManagerFactory is closed; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:371) ~[spring-orm-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:257) ~[spring-orm-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528) ~[spring-orm-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153) ~[spring-tx-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:149) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at jdk.proxy2/jdk.proxy2.$Proxy107.findByUsername(Unknown Source) ~[na:na]
+	at com.example.demo.security.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:24) ~[classes/:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	... 197 common frames omitted
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:548) ~[hibernate-core-5.4.9.Final.jar:5.4.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:627) ~[hibernate-core-5.4.9.Final.jar:5.4.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:160) ~[hibernate-core-5.4.9.Final.jar:5.4.9.Final]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:497) ~[spring-orm-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:680) ~[spring-orm-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at jdk.proxy2/jdk.proxy2.$Proxy92.createEntityManager(Unknown Source) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308) ~[spring-orm-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at jdk.proxy2/jdk.proxy2.$Proxy95.createQuery(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:297) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:251) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:112) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:226) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:196) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:154) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:142) ~[spring-data-jpa-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:618) ~[spring-data-commons-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) ~[spring-tx-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99) ~[spring-tx-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 206 common frames omitted
+
+2023-08-08 14:06:41.350  INFO 5060 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on PhucVV with PID 5060 (D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code\target\classes started by ASUS in D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code)
+2023-08-08 14:06:41.353  INFO 5060 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2023-08-08 14:06:41.663  INFO 5060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-08 14:06:41.707  INFO 5060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 4 JPA repository interfaces.
+2023-08-08 14:06:42.047  INFO 5060 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 14:06:42.189  INFO 5060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-08 14:06:42.194  INFO 5060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-08 14:06:42.194  INFO 5060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-08-08 14:06:42.250  INFO 5060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-08 14:06:42.250  INFO 5060 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 855 ms
+2023-08-08 14:06:42.336  INFO 5060 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-08 14:06:42.371  INFO 5060 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2023-08-08 14:06:42.428  INFO 5060 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-08-08 14:06:42.488  INFO 5060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-08 14:06:42.591  INFO 5060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-08 14:06:42.599  INFO 5060 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-08 14:06:43.045  INFO 5060 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-08 14:06:43.048  INFO 5060 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:06:43.309  WARN 5060 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 14:06:43.520  INFO 5060 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4468c0ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@654cb30c, org.springframework.security.web.header.HeaderWriterFilter@6b576ff8, org.springframework.web.filter.CorsFilter@41cf4272, org.springframework.security.web.authentication.logout.LogoutFilter@22105c76, com.example.demo.security.JWTAuthenticationFilter@53d2b827, com.example.demo.security.JWTAuthenticationVerificationFilter@4769537a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@351be56b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@331ad6eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4504a4ed, org.springframework.security.web.session.SessionManagementFilter@21022cbb, org.springframework.security.web.access.ExceptionTranslationFilter@f5167f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@787a4519]
+2023-08-08 14:06:43.552  INFO 5060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:06:43.663  INFO 5060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-08 14:06:43.664  INFO 5060 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 2.563 seconds (JVM running for 2.972)
+2023-08-08 14:06:46.036  INFO 5060 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-08 14:06:46.036  INFO 5060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-08 14:06:46.041  INFO 5060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-08-08 14:06:46.235 ERROR 5060 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : Username Not Found Exception !
+2023-08-08 14:06:46.239 ERROR 5060 --- [http-nio-8080-exec-1] c.e.d.security.JWTAuthenticationFilter   : An internal error occurred while trying to authenticate the user.
+
+org.springframework.security.authentication.InternalAuthenticationServiceException: test
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at com.example.demo.security.JWTAuthenticationFilter.attemptAuthentication(JWTAuthenticationFilter.java:39) ~[classes/:na]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.RuntimeException: test
+	at com.example.demo.security.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:27) ~[classes/:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	... 53 common frames omitted
+
+2023-08-08 14:07:14.342  INFO 5060 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:07:14.343  INFO 5060 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:07:14.345  INFO 5060 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-08 14:07:14.346  INFO 5060 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-08 14:09:05.201  INFO 9784 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on PhucVV with PID 9784 (D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code\target\classes started by ASUS in D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code)
+2023-08-08 14:09:05.203  INFO 9784 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2023-08-08 14:09:05.508  INFO 9784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-08 14:09:05.554  INFO 9784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 4 JPA repository interfaces.
+2023-08-08 14:09:05.865  INFO 9784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 14:09:06.014  INFO 9784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-08 14:09:06.018  INFO 9784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-08 14:09:06.019  INFO 9784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-08-08 14:09:06.080  INFO 9784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-08 14:09:06.080  INFO 9784 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 837 ms
+2023-08-08 14:09:06.172  INFO 9784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-08 14:09:06.207  INFO 9784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2023-08-08 14:09:06.265  INFO 9784 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-08-08 14:09:06.323  INFO 9784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-08 14:09:06.424  INFO 9784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-08 14:09:06.435  INFO 9784 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-08 14:09:06.882  INFO 9784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-08 14:09:06.886  INFO 9784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:09:07.158  WARN 9784 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 14:09:07.320  INFO 9784 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7872e91f, org.springframework.security.web.context.SecurityContextPersistenceFilter@61fa3583, org.springframework.security.web.header.HeaderWriterFilter@38347345, org.springframework.web.filter.CorsFilter@10b2c1cf, org.springframework.security.web.authentication.logout.LogoutFilter@6c8672b9, com.example.demo.security.JWTAuthenticationFilter@20a25f66, com.example.demo.security.JWTAuthenticationVerificationFilter@488279d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b50f432, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79bf39e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27575bcd, org.springframework.security.web.session.SessionManagementFilter@5ff29e8b, org.springframework.security.web.access.ExceptionTranslationFilter@2346f77a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70cac22a]
+2023-08-08 14:09:07.359  INFO 9784 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:09:07.479  INFO 9784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-08 14:09:07.480  INFO 9784 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 2.529 seconds (JVM running for 2.936)
+2023-08-08 14:09:11.587  INFO 9784 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-08 14:09:11.588  INFO 9784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-08 14:09:11.591  INFO 9784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-08 14:12:08.071  INFO 9784 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:12:08.072  INFO 9784 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:12:08.073  INFO 9784 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-08 14:12:08.075  INFO 9784 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-08 14:15:37.105  INFO 12648 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on PhucVV with PID 12648 (D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code\target\classes started by ASUS in D:\study\udacity\java-web\workspace\nd035-c4-Security-and-DevOps\starter_code)
+2023-08-08 14:15:37.108  INFO 12648 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2023-08-08 14:15:37.407  INFO 12648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-08 14:15:37.447  INFO 12648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 4 JPA repository interfaces.
+2023-08-08 14:15:37.743  INFO 12648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 14:15:37.903  INFO 12648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-08 14:15:37.909  INFO 12648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-08 14:15:37.910  INFO 12648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-08-08 14:15:37.973  INFO 12648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-08 14:15:37.973  INFO 12648 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 827 ms
+2023-08-08 14:15:38.064  INFO 12648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-08 14:15:38.094  INFO 12648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2023-08-08 14:15:38.158  INFO 12648 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-08-08 14:15:38.213  INFO 12648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-08 14:15:38.311  INFO 12648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-08 14:15:38.320  INFO 12648 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-08 14:15:38.771  INFO 12648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-08 14:15:38.776  INFO 12648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:15:39.024  WARN 12648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 14:15:39.191  INFO 12648 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52c27d53, org.springframework.security.web.context.SecurityContextPersistenceFilter@14624acc, org.springframework.security.web.header.HeaderWriterFilter@3e5b2630, org.springframework.web.filter.CorsFilter@5ca7619f, org.springframework.security.web.authentication.logout.LogoutFilter@364c93e6, com.example.demo.security.JWTAuthenticationFilter@5b71af0d, com.example.demo.security.JWTAuthenticationVerificationFilter@fb42c1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f453129, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c8f65da, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4edde05c, org.springframework.security.web.session.SessionManagementFilter@75ac326f, org.springframework.security.web.access.ExceptionTranslationFilter@49741274, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5759edff]
+2023-08-08 14:15:39.226  INFO 12648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:15:39.366  INFO 12648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-08 14:15:39.367  INFO 12648 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 2.512 seconds (JVM running for 2.916)
+2023-08-08 14:15:44.987  INFO 12648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-08 14:15:44.987  INFO 12648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-08 14:15:44.991  INFO 12648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-08-08 14:15:45.108 ERROR 12648 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Cannot create user. Could you please re-check your password provided
+2023-08-08 14:16:11.855  INFO 12648 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Create user successfully 
+2023-08-08 14:16:47.401  INFO 12648 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-08 14:16:47.402  INFO 12648 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08 14:16:47.404  INFO 12648 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-08 14:16:47.407  INFO 12648 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
